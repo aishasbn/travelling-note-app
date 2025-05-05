@@ -42,7 +42,7 @@ class _TambahLokasiPageState extends State<TambahLokasiPage> {
     _mapController = MapController();
     
     if (widget.lokasi != null) {
-      // Edit mode
+      // Edit
       _judulController.text = widget.lokasi!.judul;
       _catatanController.text = widget.lokasi!.catatan;
       _latitude = widget.lokasi!.latitude;
